@@ -62,3 +62,10 @@ create table reservations (
 
 
 
+alter table users drop COLUMN lastName ;
+alter table users RENAME COLUMN firstName to fullName ;
+select * from role
+
+INSERT into books VALUES (null,'A Court of Thorns and Roses','Sarah J. Maas'), (null,'Everything I Know About Love: A Memoir','Dolly Alderton');
+
+select * from categories

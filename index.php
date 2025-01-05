@@ -1,3 +1,5 @@
 <?php
-require_once("/core/config/connextion/connect.php");
+require_once("./config/connextion/connect.php");
+
+include("./models/users.php");
 ?>
